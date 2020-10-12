@@ -27,7 +27,7 @@ export class MyHttpInterceptorService implements HttpInterceptor {
    
     this.utilityService.showLoader();
     //console.log(this.authReq);
-    return next.handle(this.authReq).pipe(
+    return next.handle(request).pipe(
        finalize(() => {
          this.utilityService.hideLoader()
       }) 

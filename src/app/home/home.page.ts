@@ -16,22 +16,22 @@ export class HomePage {
   }
   
   ngOnInit(): void {
-    this.http.get('url here').subscribe(
+    this.http.get('https://ionicframework.com/docs/api/loading').subscribe(
       res => {
         console.log(res)
       }
     );
-    this.http.get('url 1 here').subscribe(
+    this.http.get('https://ionicframework.com/docs/api/loading').subscribe(
       res => {
         console.log(res)
       }
     )
-    this.http.get('url 2 here').subscribe(
+    this.http.get('https://ionicframework.com/docs/api/loading').subscribe(
       res => {
         console.log(res)
       }
     )
-    this.http.get('url 3 here').subscribe(
+    this.http.get('https://ionicframework.com/docs/api/loading').subscribe(
       res => {
         console.log(res)
       }
